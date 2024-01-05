@@ -45,4 +45,8 @@ nav a{
 .benner{
     padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
+}
+.benner .profile-pic{
+    width: 500px;
 }
