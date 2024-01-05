@@ -1,6 +1,5 @@
 /* font style  */
 body {
-    font-family: 'Lato','sana-serif';
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
@@ -18,8 +17,9 @@ body {
 /* nav related style */
 nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-titel {
     color: #181818;
@@ -37,4 +37,12 @@ nav li {
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header rilated styles */
+.header {
+    background-color: #FFF8F3;
+}
+.benner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
 }
